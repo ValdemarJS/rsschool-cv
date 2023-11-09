@@ -10,28 +10,75 @@
     <header class="header">
       <nav class="navigation">
         <ul class="header__nav">
-          <li class="nav__item"></li>
-          <li class="nav__item"></li>
-          <li class="nav__item"></li>
-          <li class="nav__item"></li>
-          <li class="nav__item"></li>
-          <li class="nav__item"></li>
-          <li class="nav__item"></li>
+          <li class="nav__item">About me</li>
+          <li class="nav__item">Contacts</li>
+          <li class="nav__item">Skills</li>
+          <li class="nav__item">Education</li>
+          <li class="nav__item">Languages</li>
+          <li class="nav__item">Code example</li>
         </ul>
       </nav>
     </header>
 
     <main>
       <div class="main__content">
-        <div class="avatar__block"></div>
-        <section class="name" id="name"></section>
-        <section class="about__me" id="about__me"></section>
-        <section class="languages" id="languages"></section>
-        <section class="code__eaxmple"></section>
+        <div class="avatar__block"><img src="" alt="avatar"></div>
+        <section class="name" id="name"><h1>VLADIMIR YEROKHIN</h1></section>
+        <section class="about__me" id="about__me"><h2>About me</h2><p> Still trying to learn JS)</p></section>
+        <section class="contacts" id="contacts"><h2>Contacts</h2>
+        <ul>
+          <li>phone number: <a href="">+79884142366</a></li>
+          <li>telegram: <a href="https://t.me/vlademarus">@vlademarus</a></li>
+          <li>mail: <a href="ierokhinv@gmail.com">ierokhinv@gmail.com</a></li>
+        </ul></section>
+        <section class="skills" id="skills"><h2>Skills</h2>
+        <ul class="skill__list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS (basic)</li>
+          <li>Git/GitHub</li>
+          <li>Figma</li>
+        </ul></section>
+        <section class="education" id="education"><h2>Education</h2><p><b>KYIV UNIVERSITY OF ORIENTAL LINGUISTICS</b></p></section>
+        <section class="languages" id="languages"><h2>Languages</h2>
+          <ul class="languages__list">
+           <li>Russian - native</li>
+           <li>English - A1</li>
+          </ul>
+         </section>
+        <section class="code__eaxmple" id="code__example">
+          <pre>
+          <code>
+            function century(year){ 
+              const num = String(year).slice(0,2);
+              const zero = String(year).slice(2,4);
+              const century = parseInt(num)+ 1;
+                if (zero === "00"){return parseInt(num)}
+                else if (year <= 100) {return 1}
+                else if (year >= 100 && year <= 200) {return 2}
+                else if (year >= 200 && year <= 300) {return 3}
+                else if (year >= 300 && year <= 400) {return 4}
+                else if (year >= 400 && year <= 500) {return 5}
+                else if (year >= 500 && year <= 600) {return 6}
+                else if (year >= 600 && year <= 700) {return 7}
+                else if (year >= 700 && year <= 800) {return 8}
+                else if (year >= 800 && year <= 900) {return 9}
+                else if (year >= 900 && year <= 1000) {return 10}
+                else if (year >= 2023){return Math.ceil(year/100); console.log("im tired")}
+                else
+              return century;
+                }
+          </code>
+        </pre>
+        </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="footer__content"></div>
+      <div class="footer__content">
+        <a class="footer__link" href="https://github.com/ValdemarJS"></a>
+        <p class="footer__text">2023</p>
+        <a class="footer__link" href="https://rs.school/"></a>
+      </div>
     </footer>
 
   </div>
