@@ -5,8 +5,7 @@ html {
 .wrapper {
   margin: 0 auto;
   max-width: 100%;
-  max-height: 100%;
-  
+  max-height: 100%; 
 }
 
 header {
@@ -27,7 +26,6 @@ header {
   height: 100px;
   display: flex;
   justify-content: flex-end;
-
 }
 .header__nav {
   display: flex;
@@ -52,12 +50,11 @@ a, a:visited {
 }
 .avatar__block {
   position: relative;
-  bottom: -70%;
+  bottom: -60%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
+  justify-content: center;
+  /* flex-direction: column; */
+ }
 .avatar__img {
   width: 200px;
   height: 250px;
@@ -65,12 +62,103 @@ a, a:visited {
   /* border-radius: 100%; */
 }
 
-/* .id {
+/* main {
+  background-color: rgb(4, 95, 200);
+  
+} */
+.main__content {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
+
+.id {
   width: auto;
   height: auto;
-  color: rgb(1, 1, 1);
-} */
-main {
-  background-color: rgb(0, 65, 138);
-  
+  color: rgb(255, 255, 255);
 }
+
+.about__me {
+  width: auto;
+  height: auto;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts {
+  width: 200px;
+  height: 150px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__list {
+  max-width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.contacts__item {
+  list-style: none;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.code__eaxmple {
+  color: white;
+}
+
+footer {
+  padding: 30px 50px;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__text {
+  color: white;
+  font-size: 20px
+}
+
+.footer__link {
+  /* width: 24px;
+  height: 24px; */
+}
+
+.rs__img {
+  width: 100px;
+  height: 100px;
+}
+
+
