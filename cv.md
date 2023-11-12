@@ -9,7 +9,7 @@ _____
 ## **About me:**
 ___
 
-####  
+####
 Almost all my time from first course in univercity im take a part in turism, like work and travel. There are jobs in different countries and a lot of interesting professions. For this moment I would like to trie my knowlege and expirience to provide some new internet services, this why im here.
 
 #####
