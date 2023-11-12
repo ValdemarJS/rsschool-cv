@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navigation">
+        <ul class="header__nav">
+          <li class="nav__item"><a class="nav__link" href="#about__me">About me</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+          <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+          <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+          <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+          <li class="nav__item"><a class="nav__link" href="#code__example">Code example</a></li>
+        </ul>
+      </nav>
+      <div class="avatar__block"><img class="avatar__img" src="/picture/avatar.jpg" alt="avatar"></div>
+    </header>
+
+    <main>
+      <div class="main__content">
+        <section class="name" id="name"><h1 class="id">VLADIMIR YEROKHIN</h1></section>
+        <section class="about__me" id="about__me"><h2>About me</h2><p> Still trying to learn JS)</p></section>
+        <section class="contacts" id="contacts"><h2>Contacts</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item"> <a class="phone__link" href="+79884142366"><img src="/icons/icons8-телефон.svg" alt=""></a></li>
+          <li class="contacts__item"> <a class="telegram__link" href="https://t.me/vlademarus"><img src="/icons/icons8-телеграм.svg" alt=""></a></li>
+          <li class="contacts__item"> <a class="mail__link" href="ierokhinv@gmail.com"><img src="/icons/icons8-почта.svg" alt=""></a></li>
+        </ul></section>
+        <section class="skills" id="skills"><h2>Skills</h2>
+        <ul class="skill__list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS (basic)</li>
+          <li>Git/GitHub</li>
+          <li>Figma</li>
+          <li>Windows/Linux/macOS</li>
+        </ul></section>
+        <section class="education" id="education"><h2>Education</h2><p><b>KYIV UNIVERSITY OF ORIENTAL LINGUISTICS</b></p></section>
+        <section class="languages" id="languages"><h2>Languages</h2>
+          <ul class="languages__list">
+           <li>Russian - native</li>
+           <li>English - A1</li>
+          </ul>
+         </section>
+        <section class="code__eaxmple" id="code__example"><h2>Code example</h2>
+          <pre>
+          <code>
+            function capitalizeWord(word) {
+              const res = word.slice(0,1).toUpperCase() + 
+                  word.slice(1);
+               return res;
+             }
+          </code>
+        </pre>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <a class="footer__link" href="https://github.com/ValdemarJS"><img src="/icons/icons8-github.svg" alt=""></a>
+        <p class="footer__text">2023</p>
+        <a class="footer__link" href="https://rs.school/"><img class="rs__img" src="/icons/rs.svg" alt=""></a>
+      </div>
+    </footer>
+
+  </div>
+  
+</body>
+</html>
