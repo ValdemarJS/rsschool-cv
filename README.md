@@ -1,1 +1,1 @@
-https://valdemarjs.github.io/rsschool-cv/cv
+https://valdemarjs.github.io/rsschool-cv/
