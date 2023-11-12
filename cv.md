@@ -24,6 +24,7 @@ ___
 - CSS
 - JavaScript (basic)
 - Git/GitHub
+- Windows/Linux/macOS
 
 ## **Education**
 ----
