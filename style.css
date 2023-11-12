@@ -174,7 +174,7 @@ header {
 }
 
 footer {
-  padding: 30px 50px;
+  padding: 10px;
 }
 
 .footer__content {
@@ -189,8 +189,11 @@ footer {
 }
 
 .footer__link {
-  /* width: 24px;
-  height: 24px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
 }
 
 .rs__img {
